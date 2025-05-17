@@ -7,7 +7,7 @@ Este projeto é uma aplicação web desenvolvida em **Python com Streamlit**, co
 ## 🚀 Funcionalidades
 
 - ✅ Cadastro de novos clientes
-- 🔍 Consulta rápida por nome
+- 🔍 Consulta rápida de clientes
 - ✏️ Edição dos dados dos clientes
 - ❌ Exclusão de registros
 - 🧪 Testes unitários com `pytest`
@@ -16,7 +16,7 @@ Este projeto é uma aplicação web desenvolvida em **Python com Streamlit**, co
 
 ## 🛠 Tecnologias Utilizadas
 
-- [Python 3.9+](https://www.python.org/)
+- [Python](https://www.python.org/)
 - [Streamlit](https://streamlit.io/)
 - [Pytest](https://docs.pytest.org/)
 - Armazenamento local em **JSON**
