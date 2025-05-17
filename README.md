@@ -1,15 +1,15 @@
 # 📋 Sistema de Cadastro de Clientes - XYZ Comércio
 
-Este projeto é uma aplicação web desenvolvida em **Python com Streamlit**, com o objetivo de ajudar o comércio **XYZ** a organizar o cadastro de seus clientes. O sistema permite **cadastrar, consultar, editar e excluir clientes**, garantindo facilidade de uso e acesso rápido às informações.
+Este projeto é uma aplicação web desenvolvida em **Python com Streamlit**, que permite à empresa **XYZ Comércio** cadastrar, consultar, editar e excluir clientes, utilizando um banco de dados **SQLite3** para armazenamento dos dados.
 
 ---
 
 ## 🚀 Funcionalidades
 
 - ✅ Cadastro de novos clientes
-- 🔍 Consulta rápida de clientes
+- 🔍 Consulta de clientes cadastrados
 - ✏️ Edição dos dados dos clientes
-- ❌ Exclusão de registros
+- ❌ Exclusão de clientes
 - 🧪 Testes unitários com `pytest`
 
 ---
@@ -18,8 +18,8 @@ Este projeto é uma aplicação web desenvolvida em **Python com Streamlit**, co
 
 - [Python](https://www.python.org/)
 - [Streamlit](https://streamlit.io/)
+- [SQLite3](https://www.sqlite.org/index.html)
 - [Pytest](https://docs.pytest.org/)
-- Armazenamento local em **JSON**
 
 ---
 
@@ -28,10 +28,8 @@ Este projeto é uma aplicação web desenvolvida em **Python com Streamlit**, co
 ```plaintext
 cliente_app/
 │
-├── data/
-│   └── clientes.json             # Base de dados dos clientes
-│
-├── app.py                        # Interface web (Streamlit)
-├── cliente_manager.py            # Lógica de manipulação dos dados
-├── test_cliente_manager.py       # Testes automatizados
-└── requirements.txt              # Bibliotecas necessárias
+├── app.py                      # Interface web com Streamlit
+├── cliente_manager.py          # Operações com banco de dados SQLite3
+├── test_cliente_manager.py     # Testes com pytest
+├── database.db                 # Banco de dados SQLite3 (gerado automaticamente)
+└── requirements.txt            # Dependências do projeto
