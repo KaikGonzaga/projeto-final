@@ -23,6 +23,10 @@ Este projeto é uma aplicação web desenvolvida em **Python com Streamlit**, qu
 
 ---
 
+## Autores:
+
+- Kaik Gonzaga
+
 ## 📁 Estrutura do Projeto
 
 ```plaintext
