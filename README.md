@@ -3,6 +3,11 @@
 Este projeto é uma aplicação web desenvolvida em **Python com Streamlit**, que permite à empresa **XYZ Comércio** cadastrar, consultar, editar e excluir clientes, utilizando um banco de dados **SQLite3** para armazenamento dos dados.
 
 ---
+# 🔌Como fazer funcionar na sua máquina:
+
+- Instale Python 3.8 na sua máquina;
+
+---
 
 ## 🚀 Funcionalidades
 
@@ -26,6 +31,8 @@ Este projeto é uma aplicação web desenvolvida em **Python com Streamlit**, qu
 ## Autores:
 
 - Kaik Gonzaga
+
+---
 
 ## 📁 Estrutura do Projeto
 
